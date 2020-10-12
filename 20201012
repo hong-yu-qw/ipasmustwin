@@ -1,0 +1,49 @@
+GET / HTTP/1.1
+Host: 192.168.1.41:8080
+Connection: keep-alive
+Authorization: Basic ZmxhZzphenVsY3JlbWE=
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/46.0.2490.80 Safari/537.36
+DNT: 1
+Accept-Encoding: gzip, deflate, sdch
+Accept-Language: en-US,en;q=0.8,ht;q=0.6
+
+HTTP/1.0 200 OK
+Server: servefile/0.4.4 Python/2.7.10
+Date: Fri, 13 Nov 2015 18:41:08 GMT
+Content-Type: text/html
+Content-Length: 1784
+Connection: close
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Index of /</title>
+		<style type="text/css">
+			a { text-decoration: none; color: #0000BB;}
+			a:visited { color: #000066;}
+			a:hover, a:focus, a:active { text-decoration: underline; color: #cc0000; text-indent: 5px; }
+			body { background-color: #eaeaea; padding: 20px 0; margin: 0; font: 400 13px/1.2em Arial, sans-serif; }
+			h1 { margin: 0 10px 12px 10px; font-family: Arial, sans-serif; }
+			div.content { background-color: white; border-color: #ccc; border-width: 1px 0; border-style: solid; padding: 10px 10px 15px 10px; }
+			td { padding-right: 15px; text-align: left; font-family: monospace; }
+			th { font-weight: bold; font-size: 115%; padding: 0 15px 5px 0; text-align: left; }
+			.size { text-align: right; }
+			.footer { font: 12px monospace; color: #333; margin: 5px 10px 0; }
+			.footer, h1 { text-shadow: 0 1px 0 white; }
+		</style>
+	</head>
+<body>
+	<h1>Index of /</h1>
+	<div class="content">
+	<table summary="Directory Listing">
+		<thead>
+			<tr>
+				<th class="name">Name</th>
+				<th class="lastModified">Last Modified</th>
+				<th class="size">Size</th>
+				<th class="type">Type</th>
+			</tr>
+      
